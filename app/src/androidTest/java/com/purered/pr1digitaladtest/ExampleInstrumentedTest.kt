@@ -1,4 +1,4 @@
-package com.purered.pr1digitaladlib
+package com.purered.pr1digitaladtest
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.purered.pr1digitaladlib", appContext.packageName)
+        assertEquals("com.purered.pr1digitaladtest", appContext.packageName)
     }
 }

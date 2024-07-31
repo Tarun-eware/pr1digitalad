@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.purered.pr1digitaladlib"
+    namespace = "com.purered.pr1digitaladtest"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.purered.pr1digitaladlib"
+        applicationId = "com.purered.pr1digitaladtest"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -49,9 +49,6 @@ android {
     }
 }
 
-
-
-
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -62,7 +59,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(project(":PR1DigitalAd"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

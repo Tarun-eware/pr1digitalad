@@ -1,4 +1,4 @@
-package com.purered.pr1digitaladlib
+package com.purered.pr1digitaladtest
 
 import org.junit.Test
 

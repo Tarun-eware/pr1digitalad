@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PR1DigitalAdLib"
+rootProject.name = "PR1DigitalAdTest"
 include(":app")
-include(":PR1DigitalAd")
+include(":pr1digitalad")

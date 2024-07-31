@@ -1,4 +1,4 @@
-package com.purered.pr1digitaladlib.ui.theme
+package com.purered.pr1digitaladtest.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
