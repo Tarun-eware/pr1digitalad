@@ -10,7 +10,6 @@ android {
 
     defaultConfig {
         minSdk = 24
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
     }
@@ -37,7 +36,7 @@ android {
 publishing{
     publications{
         create<MavenPublication>("release"){
-            from(components.findByName("debug"))
+            from(components.findByName("release"))
 
             groupId = "com.github.Tarun-eware"
             artifactId = "pr1digitalad"
