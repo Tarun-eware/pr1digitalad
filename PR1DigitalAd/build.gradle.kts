@@ -40,8 +40,8 @@ publishing{
             from(components.findByName("release"))
 
             groupId = "com.github.Tarun-eware"
-            artifactId = "PR1DAC_AOS"
-            version = "v0.0.2"
+            artifactId = "pr1digitalad"
+            version = "1.0.2"
         }
     }
 }
