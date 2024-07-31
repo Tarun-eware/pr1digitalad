@@ -37,7 +37,7 @@ android {
 publishing{
     publications{
         create<MavenPublication>("release"){
-            from(components.findByName("release"))
+            from(components.findByName("debug"))
 
             groupId = "com.github.Tarun-eware"
             artifactId = "pr1digitalad"
